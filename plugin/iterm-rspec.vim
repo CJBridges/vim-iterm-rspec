@@ -21,7 +21,7 @@ module ITerm
   end
 
   def self.rspec(options="")
-    exec("rspec #{current_file}#{options}")
+    exec("bin/rspec #{current_file}#{options}")
   end
 
   def self.spring_rspec_line
